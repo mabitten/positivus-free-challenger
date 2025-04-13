@@ -1,18 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 
 import "./globals.css";
-import { Container } from "@/components/ui/Container";
+import { Container } from "@/components/foundation/Container";
 import { LogoPositivus } from "@/assets/svg";
+import { Navigation } from "@/components/foundation/Navigation";
 
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
   subsets: ["latin"],
 });
 
@@ -29,10 +24,11 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        className={`${spaceGrotesk.variable} antialiased min-h-screen flex flex-col py-16`}
       >
-        <Container as="header">
+        <Container as="header" className="flex items-center justify-between">
           <LogoPositivus aria-label="Logo Positivus" />
+          <Navigation />
         </Container>
         {children}
       </body>
