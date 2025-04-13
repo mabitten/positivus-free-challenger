@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+
 import "./globals.css";
+import { Container } from "@/components/ui/Container";
+import { LogoPositivus } from "@/assets/svg";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +31,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
+        <Container as="header">
+          <LogoPositivus aria-label="Logo Positivus" />
+        </Container>
         {children}
       </body>
     </html>

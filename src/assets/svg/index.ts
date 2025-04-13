@@ -1,0 +1,1 @@
+export { default as LogoPositivus } from "./LogoPositivus";
