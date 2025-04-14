@@ -15,7 +15,7 @@ export function Container({
   return (
     <Component
       className={cn(
-        "mx-auto w-full max-w-[var(--container-width)] px-[var(--container-padding)]",
+        "mx-auto w-full max-w-[var(--container-width)]",
         className
       )}
       {...props}

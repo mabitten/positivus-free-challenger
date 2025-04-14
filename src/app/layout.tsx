@@ -5,6 +5,7 @@ import "./globals.css";
 import { Container } from "@/components/foundation/Container";
 import { LogoPositivus } from "@/assets/svg";
 import { Navigation } from "@/components/foundation/Navigation";
+import { SidebarProvider } from "@/components/ui/sidebar";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -24,13 +25,17 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <body
-        className={`${spaceGrotesk.variable} antialiased min-h-screen flex flex-col py-16`}
+        className={`${spaceGrotesk.variable} antialiased min-h-screen flex flex-col`}
       >
-        <Container as="header" className="flex items-center justify-between">
-          <LogoPositivus aria-label="Logo Positivus" />
-          <Navigation />
-        </Container>
-        {children}
+        <SidebarProvider defaultOpen={false}>
+          <Container as="header" className="flex items-center py-16 justify-between">
+            <LogoPositivus aria-label="Logo Positivus" />
+            <Navigation />
+          </Container>
+          
+            {children}
+          
+        </SidebarProvider>
       </body>
     </html>
   );
