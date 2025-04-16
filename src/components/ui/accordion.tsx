@@ -44,7 +44,7 @@ const AccordionTrigger = React.forwardRef<
       >
         {children}
         {open ? (
-          <div className="cursor-pointer flex items-center justify-center w-[1.875rem] h-[1.875rem] md:w-[3.625rem] md:h-[3.625rem] rounded-full bg-accent border border-dark-blue">
+          <div className="cursor-pointer flex items-center justify-center w-[1.875rem] h-[1.875rem] md:w-[3.625rem] md:h-[3.625rem] rounded-full bg-accent border border-dark-blue justify-self-end">
             <MinusIcon className="md:w-6 md:h-6 w-3 h-3" />
           </div>
         ) : (
