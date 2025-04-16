@@ -15,27 +15,32 @@ import {
 
 const items = [
   {
-    title: "Home",
+    title: "About us",
     url: "#",
     icon: Home,
   },
   {
-    title: "Inbox",
+    title: "Services",
     url: "#",
     icon: Inbox,
   },
   {
-    title: "Calendar",
+    title: "Use Cases",
     url: "#",
     icon: Calendar,
   },
   {
-    title: "Search",
+    title: "Pricing",
     url: "#",
     icon: Search,
   },
   {
-    title: "Settings",
+    title: "Blog",
+    url: "#",
+    icon: Settings,
+  },
+  {
+    title: "Request a quote",
     url: "#",
     icon: Settings,
   },
