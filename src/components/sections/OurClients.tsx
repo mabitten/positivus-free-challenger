@@ -3,7 +3,7 @@ import { Container } from "@/components";
 
 const OurClients = () => {
   return (
-    <Container as="section" className="grid grid-cols-3 lg:grid-cols-6 gap-10 lg:gap-24 itens-center justify-center mt-[70px]" aria-label="Our clients">
+    <Container as="section" className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 lg:gap-24 itens-center justify-center mt-[70px]" aria-label="Our clients">
         <AmazonLogo aria-label="Amazon" />
         <DribbleLogo aria-label="Dribble" />
         <HubspotLogo aria-label="Hubspot" />
