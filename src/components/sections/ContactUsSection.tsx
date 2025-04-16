@@ -40,6 +40,7 @@ function ContactUsSection() {
               placeholder="Name" 
               className="px-7 py-4" 
               aria-describedby="name-hint"
+              required
             />
             <div id="name-hint" className="sr-only">Digite seu nome completo</div>
           </div>

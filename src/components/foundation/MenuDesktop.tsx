@@ -35,6 +35,7 @@ export const MenuDesktop = () => {
             <Link 
               href={item.href} 
               className="text-primary hover:text-secondary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+              aria-label={`Navigate to ${item.label}`}
             >
               {item.label}
             </Link>
@@ -44,6 +45,7 @@ export const MenuDesktop = () => {
           <Button
             size="lg"
             variant="outline"
+            aria-label="Request a quote"
           >
             Request a quote
           </Button>

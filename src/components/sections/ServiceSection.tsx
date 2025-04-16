@@ -13,7 +13,7 @@ const ServiceSection = () => {
             title={["Search engine", "optimization"]} 
             image="/images/search-engine-optimization.png" 
             link="/#"
-            aria-label="Learn more about Search engine Otimization"
+            aria-label="Learn more about Search engine Optimization"
           />
 
           <Card 
