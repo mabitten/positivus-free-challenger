@@ -24,6 +24,7 @@ module.exports = {
         border: 'var(--border)',
         input: 'var(--input)',
         ring: 'var(--ring)',
+        'dark-blue': 'var(--dark-blue)',
       },
       fontFamily: {
         grotestk: ['var(--font-space-grotesk)', 'sans-serif'],

@@ -228,7 +228,7 @@ function SidebarTrigger({
       }}
       {...props}
     >
-      <HamburgerIcon />
+      <HamburgerIcon className="!w-14" />
       <span className="sr-only">Toggle Sidebar</span>
     </Button>
   )

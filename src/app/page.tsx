@@ -1,11 +1,32 @@
-import { Container } from "@/components/foundation/Container";
+import { 
+  OurWorkingProcessSection, 
+  TeamSection, 
+  ContactUsSection,
+  BookConsultingSection,
+  ServiceSection,
+  LetsMakes,
+  CasesSection,
+  OurClients
+} from "@/components";
 
 export default function Home() {
   return (
     <>
-    <Container>
-      <h1>Positivus</h1>
-    </Container>
+      <BookConsultingSection />
+
+      <OurClients />
+
+      <ServiceSection />
+
+      <LetsMakes />
+
+      <CasesSection />
+
+      <OurWorkingProcessSection />
+
+      <TeamSection />
+
+      <ContactUsSection />
     </>
   );
 }

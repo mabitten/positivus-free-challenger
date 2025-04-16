@@ -1,0 +1,10 @@
+export { default as OurWorkingProcessSection } from "./OurWorkingProcessSection";
+export { default as TeamSection } from "./TeamSection";
+export { default as ContactUsSection } from "./ContactUsSection";
+export { default as FooterSection } from "./FooterSection";
+export { default as HeaderSection } from "./HeaderSection";
+export { default as BookConsultingSection } from "./BookConsultingSection";
+export { default as ServiceSection } from "./ServiceSection";
+export { default as LetsMakes } from "./LetsMakes";
+export { default as CasesSection } from "./CasesSection";
+export { default as OurClients } from "./OurClients";

@@ -2,10 +2,9 @@ import * as React from "react";
 const HamburgerIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="26"
-    height="19"
     fill="none"
     viewBox="0 0 26 19"
+    preserveAspectRatio="xMidYMid meet"
     {...props}
   >
     <path

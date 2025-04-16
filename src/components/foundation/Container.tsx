@@ -6,12 +6,12 @@ interface ContainerProps extends HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
 }
 
-export function Container({
+export const Container = ({
   as: Component = "div",
   children,
   className,
   ...props
-}: ContainerProps) {
+}: ContainerProps) => {
   return (
     <Component
       className={cn(
