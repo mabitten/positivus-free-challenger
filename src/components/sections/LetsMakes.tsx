@@ -13,7 +13,7 @@ const LetsMakes = () => {
           succeed online.
         </p>
         
-        <Button className="w-full lg:w-auto mt-10 lg:px-9" size="lg">Get your free proposal</Button>
+        <Button className="w-full lg:w-auto mt-10 lg:px-9 bg-dark-blue" size="lg">Get your proposal</Button>
       </div>
 
       <LetsMake className="absolute right-36 -top-5 hidden lg:block" />
