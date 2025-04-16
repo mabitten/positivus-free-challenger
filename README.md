@@ -22,4 +22,4 @@ Este projeto utiliza [`next/font`](https://nextjs.org/docs/app/building-your-app
 
 ## Melhorias Possíveis
 
-Embora o projeto esteja funcional, há várias melhorias que podem ser feitas, como a adição de um carrossel para exibir conteúdo dinâmico. No entanto, essa funcionalidade foi considerada opcional e não foi implementada devido a restrições de tempo, tam´bem podemos quebrar algumas outros components em components menores para fim de otimização. Também foi adicionado muito valores px/rem manualmente, o ideal é criar um design system no tailwind com os tokens conforme o Figma.
+Embora o projeto esteja funcional, há várias melhorias que podem ser feitas, como a adição de um carrossel para exibir conteúdo dinâmico. No entanto, essa funcionalidade foi considerada opcional e não foi implementada devido a restrições de tempo, tam´bem podemos quebrar algumas outros components em components menores para fim de otimização. Também foi adicionado muito valores px/rem manualmente, o ideal é criar um design system no tailwind com os tokens conforme o Figma. Adicionar um eslint mais elaborado com prettier é uam boa ideia também!
