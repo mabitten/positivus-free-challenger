@@ -5,7 +5,7 @@ import { Button, Label, Input, RadioGroup, RadioGroupItem, HeaderContainer, Cont
 
 function ContactUsSection() {
   return (
-    <Container as="section" id="contato" className="mt-[8.75rem]" aria-labelledby="contact-heading">
+    <Container as="section" id="contato" className="mt-[3.75rem] md:mt-[8.75rem]" aria-labelledby="contact-heading">
         <HeaderContainer title="Contact Us">
             Connect with Us: Let&apos;s Discuss Your<br className="hidden lg:block" />
             Digital Marketing Needs

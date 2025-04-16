@@ -51,12 +51,12 @@ const OurWorkingProcessSection = () => {
     setValue(value);
   };
   return (
-    <Container as="section" className="mt-[8.75rem]">
+    <Container as="section" className="mt-[3.75rem] md:mt-[8.75rem]">
       <HeaderContainer title="Our Working Process ">
           Step-by-Step Guide to Achieving<br className="hidden md:block" /> Your Business Goals
         </HeaderContainer>
 
-      <div className="mt-[5rem]">
+      <div className="mt-8 md:mt-[5rem]">
         <Accordion
           type="single"
           collapsible

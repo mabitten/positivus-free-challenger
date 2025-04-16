@@ -5,13 +5,13 @@ import Link from "next/link";
 const CasesSection = () => {
   return (
     
-    <Container as="section" className="mt-[10rem]">
+    <Container as="section" className="mt-[3.75rem] md:mt-[10rem]">
       <HeaderContainer title="Case Studies">
         Explore Real-Life Examples of Our Proven Digital Marketing<br className="hidden md:block" />
         Success through Our Case Studies
       </HeaderContainer>
 
-    <div className="flex flex-col md:flex-row gap-7 md:gap-16 bg-black rounded-[2.8125rem] mt-5rem p-[3.125rem] md:p-[3.75rem] mt-[5rem]">
+    <div className="flex flex-col md:flex-row gap-7 md:gap-16 bg-black rounded-[2.8125rem] mt-5rem p-[3.125rem] md:p-[3.75rem] mt-[2.5rem] md:mt-[5rem]">
       <div>
         <p className="text-white">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
         

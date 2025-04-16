@@ -49,13 +49,13 @@ const teamsData = [
 
 function TeamSection() {
   return (
-    <Container as="section" className="mt-[8.75rem]">
+    <Container as="section" className="mt-8 md:mt-[8.75rem]">
       <HeaderContainer title="Our Team">
         Meet the skilled and experienced team behind our successful digital<br className="hidden md:block" />
         marketing strategies
       </HeaderContainer>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:gap-10 mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:gap-10 mt-5 md:mt-20">
         {teamsData.map((team, index) => (
           <TeamCard {...team} key={index} />
         ))}

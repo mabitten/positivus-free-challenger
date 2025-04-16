@@ -2,13 +2,13 @@ import { Container, ServiceCard as Card, HeaderContainer } from "@/components";
 
 const ServiceSection = () => {
     return (
-      <Container as="section" className="mt-[8.75rem]">
+      <Container as="section" className="mt-[3.75rem] md:mt-[8.75rem]">
         <HeaderContainer title="Services">
           At our digital marketing agency, we offer a range of services to<br className="hidden md:block" /> 
           help businesses grow and succeed online. These services include:
         </HeaderContainer>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 mt-10 md:mt-20">
           <Card 
             title={["Search engine", "optimization"]} 
             image="/images/search-engine-optimization.png" 

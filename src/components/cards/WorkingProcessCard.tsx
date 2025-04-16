@@ -22,7 +22,7 @@ function WorkingProcessCard({
     <div
       className={cn(
         currentValue === `item-${label}` ? "bg-secondary" : "bg-accent",
-        "rounded-[2.8125rem] p-8 md:p-[3.125rem] border-b-[.375rem] border-b-black mb-[1.875rem]"
+        "rounded-[2.8125rem] p-5 md:p-[3.125rem] border-b-[.375rem] border-b-black mb-[1.875rem]"
       )}
     >
       <AccordionItem value={`item-${label}`}>

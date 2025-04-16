@@ -5,7 +5,7 @@ import { Button, Container, Input, Separator } from "@/components";
 
 const FooterSection = () => {
     return ( 
-        <Container as="footer" className="bg-dark-blue lg:rounded-t-[2.8125rem] p-5 lg:p-[3.75rem] mt-[8.75rem]">
+        <Container as="footer" className="bg-dark-blue lg:rounded-t-[2.8125rem] p-5 lg:p-[3.75rem] mt-[5.625rem] md:mt-[8.75rem]">
             <div className="flex flex-col lg:flex-row gap-[2.3125rem] lg:gap-0 justify-between items-center">
                 <LogoPositivus className="w-48 h-12" fill="#fff" />
                 <nav>
